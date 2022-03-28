@@ -1,0 +1,36 @@
+#grillaIndex {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-areas: "header"
+      "nav"
+      "main"
+      "footer";
+}
+
+nav{
+  width: 200px;
+  
+}
+
+nav ul li:hover{
+  
+  background-color: rgb(245, 10, 167);
+  
+}
+
+nav ul li{
+  list-style: none;
+  background-color: black;
+  color: antiquewhite;
+}
+
+
+nav ul li a{
+ 
+  color: antiquewhite;
+  text-decoration: none;
+  
+}
