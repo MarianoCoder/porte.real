@@ -8,7 +8,7 @@ body{
     height: 100%;
     width: 100%;
     grid-template-columns: 100%;
-    grid-template-rows: 35% 5% 55% 20%;
+    grid-template-rows: 40% 5% 55% 20%;
     grid-template-areas: "header"
       "nav"
       "main"
