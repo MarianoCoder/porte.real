@@ -8,7 +8,7 @@ body{
     height: 100%;
     width: 100%;
     grid-template-columns: 100%;
-    grid-template-rows: 50% 5% 55% 20%;
+    grid-template-rows: 25% 5% 55% 17%;
     grid-template-areas: "header"
       "nav"
       "main"
@@ -105,7 +105,7 @@ main{
 }
 
 footer{
-  
+  display: flex;
   background-color: black;
 }
 
@@ -113,5 +113,6 @@ footer #indexFooter{
   font-family: 'Jost', sans-serif;
   margin-left: 35%;
   color: whitesmoke;
+  display: inline;
 
 }
