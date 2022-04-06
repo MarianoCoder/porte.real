@@ -8,7 +8,19 @@ body{
     height: 100%;
     width: 100%;
     grid-template-columns: 100%;
-    grid-template-rows: 25% 5% 55% 17%;
+    grid-template-rows: 17% 2.5% 75% 17%;
+    grid-template-areas: "header"
+      "nav"
+      "main"
+      "footer";
+}
+
+#grillaEp{
+  display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 9% 2.5% 75% 17%;
     grid-template-areas: "header"
       "nav"
       "main"
@@ -39,35 +51,29 @@ nav{
   
 }*/
 
-nav ul{
+#navIndex ul{
   display: flex;
   margin: 0;
   padding: 0;
   padding-left: 0;
-  
-  
-  
+
 }
 
-nav li {
+#navIndex li {
   display: inline-block;
   position: relative;
   text-align: center;
   height: 30px;
   
-  
 }
 
-nav ul ul{
+#navIndex ul ul{
   display: none;
   position: absolute;
   
-  
 }
 
-
-
-nav ul li{
+#navIndex ul li{
   
   margin: 0;
   padding: 0;
@@ -84,7 +90,7 @@ nav ul li{
   
 }
 
-nav ul ul li{
+#navIndex ul ul li{
   display: block;
   width: 100%;
   background-color: black;
@@ -95,24 +101,25 @@ nav ul ul li{
 }
 
 
-nav ul li a{
+#navIndex ul li a{
   display:flex;
   color: antiquewhite;
   text-decoration: none;
   justify-content: space-around;
   padding-top: 1.5%;
+  
 }
 
-nav ul li:hover ul {
+#navIndex ul li:hover ul {
   display: block;
   width: 100%;
-  
+
 }
 
 nav li:hover {
   display: block;
-  
- 
+  background-color: lightgray;
+  color:black;
   
 }
 
@@ -132,15 +139,15 @@ main{
 
 }
 
-footer{
+#indexFooterSb{
   display: flex;
   background-color: black;
 }
 
-footer #indexFooter{
+#indexFooterSb #indexFooter{
   font-family: 'Jost', sans-serif;
   margin-left: 35%;
-  margin-top:2%;
+  margin-top:3.5%;
   color: whitesmoke;
   display: inline;
 
@@ -152,11 +159,50 @@ footer #indexFooter{
   bottom: 15px;
 }
 
-#intro{
+#intro1{
   padding:1%;
 }
 
-#intro #subtitle{
+#intro2 #subtitle2{
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+#intro2{
+  padding:1%;
+  width:50%;
+}
+
+#intro1 #subtitle1{
   text-align: center;
   font-size: 28px;
+  margin-top: 1%;
+  margin-bottom:1%;
 }
+
+#introEp{
+  padding:1%;
+}
+
+#carouselExampleControls {
+  margin-top: 0;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+#landPage{
+  display:flex;
+}
+
+#carousel{
+  width:100%;
+}
+
+
+
+
+
+
+
+
+
