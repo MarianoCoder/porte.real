@@ -14,18 +14,14 @@ body{
       "main"
       "footer";
 }
+ 
 
-#grillaEp{
-  display: grid;
-    height: 100%;
-    width: 100%;
-    grid-template-columns: 100%;
-    grid-template-rows: 9% 2.5% 75% 17%;
-    grid-template-areas: "header"
-      "nav"
-      "main"
-      "footer";
+#grillaEp h3{
+  text-align: center;
+  margin-bottom: 2%;
+  margin-top:2%;
 }
+
 
 #grillaNav {
   
@@ -190,6 +186,18 @@ main{
   margin-left: 15px;
 }
 
+#grillaEp #carouselExampleControls {
+  margin-top: 0;
+  margin-right: 15px;
+  margin-left: 15px;
+  display: flex;
+}
+
+#grillaIndex #grillaEp #carouselExampleControls img{
+  width:62%;
+  margin-left:18%;
+}
+
 #landPage{
   display:flex;
 }
@@ -197,6 +205,7 @@ main{
 #carousel{
   width:100%;
 }
+
 
 
 
