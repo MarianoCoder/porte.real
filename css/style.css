@@ -175,6 +175,7 @@ main{
   font-size: 30px;
   margin-top: 2%;
   margin-bottom:3%;
+
 }
 
 #introEp{
@@ -192,6 +193,11 @@ main{
 
 #carousel{
   width:100%;
+}
+
+#grillaEp1 button{
+  margin-left: 5%;
+  margin-right: 8%;
 }
 
 #grillaIndex #carouselExampleControls {
