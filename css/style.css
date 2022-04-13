@@ -8,7 +8,7 @@ body{
     height: 100%;
     width: 100%;
     grid-template-columns: 100%;
-    grid-template-rows: 17% 2.5% 90% 17%;
+    grid-template-rows: 11% 1% 80% 10%;
     grid-template-areas: "header"
       "nav"
       "main"
@@ -193,15 +193,16 @@ main{
 
 #landPageTwo{
   display:flex;
-  margin-top: 3%;
+  margin-top: 0.5%;
+  background: rgb(141,202,227);
+background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgba(215,221,220,0.8939950980392157) 33%, rgba(200,206,206,0.5662640056022409) 75%, rgba(203,208,208,0.49343487394957986) 100%);
+  
 }
 
 #landPageTwo #paymentMedia{
   display:flex;
   width:100%;
   padding: 2%;
- 
-  
 }
 
 #landPageTwo #deliveryMode{
@@ -239,7 +240,21 @@ main{
 #landPageTwo #deliveryA{
   display:inline-block;
   width:100%;
+}
 
+#landPageThree {
+  padding: 2%;
+  display: flex;
+  border-radius: 2rem;
+  background: rgb(185,237,175);
+  background: linear-gradient(90deg, rgba(185,237,175,1) 0%, rgba(185,188,189,1) 71%, rgba(158,184,184,1) 100%);
+
+
+}
+
+#landPageThree #ambientA{
+  margin-right: 2%;
+   margin-left: 3%;
 }
 
 #carousel{
