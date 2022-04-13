@@ -191,6 +191,57 @@ main{
   display:flex;
 }
 
+#landPageTwo{
+  display:flex;
+  margin-top: 3%;
+}
+
+#landPageTwo #paymentMedia{
+  display:flex;
+  width:100%;
+  padding: 2%;
+ 
+  
+}
+
+#landPageTwo #deliveryMode{
+  display:flex;
+  width:100%;
+  padding: 2%;
+  padding-left: 0;
+}
+
+#landPageTwo #paymentD{
+  display:inline-block;
+  width:100%;
+  margin-top: 7%;
+  list-style: none;
+}
+
+#landPageTwo #paymentD p{
+  margin-top: 5%;
+}
+
+#landPageTwo #paymentD h3{
+  margin-bottom: 10%;
+}
+
+#landPageTwo #paymentA{
+  display:inline-block;
+}
+
+#landPageTwo #deliveryD{
+  display:inline-block;
+  width:100%;
+  margin-top:7%;
+}
+
+#landPageTwo #deliveryA{
+  display:inline-block;
+  width:100%;
+
+}
+
 #carousel{
   width:100%;
 }
