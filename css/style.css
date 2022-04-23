@@ -168,6 +168,42 @@ main{
   bottom: 15px;
 }
 
+#grillaIndex #contact{
+  margin-top: 0;
+  margin:1%;
+  margin-left:15%;
+  width: 30%;
+  list-style: none;
+}
+
+#grillaIndex #maps #subtitle2{
+  margin-top: 2%;
+  padding-bottom: 0;
+}
+
+#grillaIndex #contact #subtitle2{
+  text-align: left;
+  padding-top: 0;
+  padding-bottom: 1%;
+  margin-top: 0;
+  margin-bottom: 6%;
+  
+}
+
+#grillaIndex #maps {
+  margin-left: 1%;
+  margin-right: 15%;
+  padding:1%;
+  width:40%;
+}
+
+#grillaIndex #contact {
+  margin-left: 25%;
+  margin-right: 1%;
+  padding:1%;
+  width:40%;
+}
+
 #intro1{
   padding:1%;
 }
