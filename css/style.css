@@ -27,6 +27,18 @@ body{
     "footer";
 }
 
+#grillaEx {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: 5% 0.5% 87% 8%;
+  grid-template-areas: "header"
+    "nav"
+    "main"
+    "footer";
+}
+
 #grillaC {
   display: grid;
   height: 30%;
@@ -50,6 +62,7 @@ body{
     "main"
     "footer";
 }
+
  
 
 #grillaEp1 h3{
@@ -439,7 +452,21 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
   display: flex;
 }
 
+#grillaEx #carouselExampleControls1 {
+  margin-top: 0;
+  margin-right: 15px;
+  margin-left: 15px;
+  display: flex;
+}
+
 #grillaEp #carouselExampleControls2 {
+  margin-top: 0;
+  margin-right: 15px;
+  margin-left: 15px;
+  display: flex;
+}
+
+#grillaEx #carouselExampleControls2 {
   margin-top: 0;
   margin-right: 15px;
   margin-left: 15px;
@@ -452,7 +479,19 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
   margin-bottom: 3%;
 }
 
+#grillaEx #carouselExampleControls1 img{
+  width:62%;
+  margin-left:18%;
+  margin-bottom: 3%;
+}
+
 #grillaEp #carouselExampleControls2 img{
+  width:62%;
+  margin-left:18%;
+  margin-bottom: 3%;
+}
+
+#grillaEx #carouselExampleControls2 img{
   width:62%;
   margin-left:18%;
   margin-bottom: 3%;
@@ -471,6 +510,19 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
   margin-bottom: 3%;
 }
 
+#grillaEx #carouselExampleControls3 {
+  margin-top: 0;
+  margin-right: 15px;
+  margin-left: 15px;
+  display: flex;
+}
+
+#grillaEx #carouselExampleControls3 img{
+  width:62%;
+  margin-left:18%;
+  margin-bottom: 3%;
+}
+
 #grillaEp #carouselExampleControls4 {
   margin-top: 0;
   margin-right: 15px;
@@ -479,6 +531,19 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
 }
 
 #grillaEp #carouselExampleControls4 img{
+  width:62%;
+  margin-left:18%;
+  margin-bottom: 3%;
+}
+
+#grillaEx #carouselExampleControls4 {
+  margin-top: 0;
+  margin-right: 15px;
+  margin-left: 15px;
+  display: flex;
+}
+
+#grillaEx #carouselExampleControls4 img{
   width:62%;
   margin-left:18%;
   margin-bottom: 3%;
@@ -497,6 +562,19 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
   margin-bottom: 3%;
 }
 
+#grillaEx #carouselExampleControls5 {
+  margin-top: 0;
+  margin-right: 15px;
+  margin-left: 15px;
+  display: flex;
+}
+
+#grillaEx #carouselExampleControls5 img{
+  width:62%;
+  margin-left:18%;
+  margin-bottom: 3%;
+}
+
 #grillaEp #carouselExampleControls6 {
   margin-top: 0;
   margin-right: 15px;
@@ -510,6 +588,19 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
   margin-bottom: 3%;
 }
 
+#grillaEx #carouselExampleControls6 {
+  margin-top: 0;
+  margin-right: 15px;
+  margin-left: 15px;
+  display: flex;
+}
+
+#grillaEx #carouselExampleControls6 img{
+  width:62%;
+  margin-left:18%;
+  margin-bottom: 3%;
+}
+
 #grillaEp #carouselExampleControls7 {
   margin-top: 0;
   margin-right: 15px;
@@ -518,6 +609,19 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
 }
 
 #grillaEp #carouselExampleControls7 img{
+  width:62%;
+  margin-left:18%;
+  margin-bottom: 3%;
+}
+
+#grillaEx #carouselExampleControls7 {
+  margin-top: 0;
+  margin-right: 15px;
+  margin-left: 15px;
+  display: flex;
+}
+
+#grillaEx #carouselExampleControls7 img{
   width:62%;
   margin-left:18%;
   margin-bottom: 3%;
