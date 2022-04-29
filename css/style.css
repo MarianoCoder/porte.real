@@ -417,6 +417,8 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
 
 #landPageTwo #paymentA{
   display:inline-block;
+  width: 100%; 
+  height: 100%;
 }
 
 #landPageTwo #deliveryD{
@@ -850,6 +852,98 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
   margin-right: 15px;
   margin-left: 15px;
   display: flex;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+  main{
+    margin:0;
+  }
+
+
+  #grillaIndex {
+    
+    grid-template-rows: 4% 1% 80% 18%;
+  }
+    
+
+  #logo {
+    
+    height: 130px;
+    width: 130px;
+    position:center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35%;
+   
+  }
+
+  #landPage{
+    display: inline;
+  }
+
+  #landPageTwo{
+    display: inline-block;
+  }
+
+  #landPageThree{
+    display: inline-block;
+  }
+
+  #carousel{
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    width: 100%; 
+  }
+
+  #landPage #intro2{
+    margin-top: 65%;
+    width: 100%;
+    padding: 5%;
+    font-size: 16px;
+
+  }
+
+  #landPageTwo #paymentMedia{
+    display: block;
+    width: 100%;
+    justify-content: center;
+    padding: 5%;
+    font-size: 16px;
+    
+
+  }
+
+  #paymentD{
+    display: block;
+    width: 100%;
+    justify-content: center;
+
+  }
+
+  #landPageTwo #paymentA{
+    display: block;
+    width: 70%;
+    height: 70%;
+    justify-content: center;
+    margin-left:10%;
+    top: 10%;
+    position: sticky;
+    
+
+  }
+
+
+
+
+
+
+
+
 }
 
 
