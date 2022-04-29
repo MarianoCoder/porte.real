@@ -216,10 +216,13 @@ main{
 #grillaC #contact li{
   padding: 1%;
   justify-items: left;
-  
-  
-  
 }
+
+#grillaC #intro1 #subtitle1{
+  
+  margin-top: 4%;
+}
+
 
 #grillaC #maps #subtitle2{
   
