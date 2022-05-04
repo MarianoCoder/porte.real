@@ -866,7 +866,7 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
 
   #grillaIndex {
     
-    grid-template-rows: 4% 1% 80% 18%;
+    grid-template-rows: 4% 1% 83% 12%;
   }
     
 
@@ -891,12 +891,22 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
 
   #landPageThree{
     display: inline-block;
+    padding: 5%;
+  }
+
+  #landPageThree #ambientA{
+    
+    justify-content: center;
+    position:center;
+    align-items: center;
+    margin-left:17%;
+
   }
 
   #carousel{
     display: inline-block;
     position: absolute;
-    top: 40%;
+    top: 37%;
     width: 100%; 
   }
 
@@ -933,9 +943,42 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
     margin-left:10%;
     top: 10%;
     position: sticky;
-    
-
+  
   }
+
+  #landPageTwo #deliveryMode{
+    display: block;
+    width: 100%;
+    justify-content: center;
+    padding: 5%;
+    font-size: 16px;
+  }
+
+  #deliveryD{
+    display: block;
+    width: 100%;
+    justify-content: center;
+  }
+
+  #landPageTwo #deliveryA{
+    display: block;
+    width: 70%;
+    height: 70%;
+    justify-content: center;
+    margin-left:10%;
+    top: 10%;
+    position: sticky;
+  }
+
+  #indexFooterSb #indexFooter{
+  
+  margin-top: 4%;
+  margin-left: 0%;
+  padding: 1%;
+  font-size:14px;
+  
+
+  } 
 
 
 
