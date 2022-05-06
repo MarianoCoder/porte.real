@@ -1,18 +1,18 @@
-body{
-  margin:0;
-  padding:0;
+body {
+  margin: 0;
+  padding: 0;
 }
 
 #grillaIndex {
-    display: grid;
-    height: 100%;
-    width: 100%;
-    grid-template-columns: 100%;
-    grid-template-rows: 11% 1% 80% 18%;
-    grid-template-areas: "header"
-      "nav"
-      "main"
-      "footer";
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: 11% 1% 80% 18%;
+  grid-template-areas: "header"
+    "nav"
+    "main"
+    "footer";
 }
 
 #grillaEp {
@@ -75,18 +75,18 @@ body{
     "footer";
 }
 
- 
 
-#grillaEp1 h3{
+
+#grillaEp1 h3 {
   text-align: center;
   margin-bottom: 2%;
-  margin-top:2%;
+  margin-top: 2%;
   margin-right: 4.5%;
 }
 
 
 #grillaNav {
-  
+
   display: grid;
   grid-template-columns: 16.66% 16.66% 16.67% 16.66% 16.66% 16.66%;
   align-items: center;
@@ -97,7 +97,7 @@ body{
   margin: 0;
 }
 
-#navIndex ul{
+#navIndex ul {
   display: flex;
   margin: 0;
   padding: 0;
@@ -110,17 +110,17 @@ body{
   position: relative;
   text-align: center;
   height: 30px;
-  
+
 }
 
-#navIndex ul ul{
+#navIndex ul ul {
   display: none;
   position: absolute;
-  
+
 }
 
-#navIndex ul li{
-  
+#navIndex ul li {
+
   margin: 0;
   padding: 0;
   list-style: none;
@@ -131,27 +131,27 @@ body{
   text-align: left;
   width: 100%;
   align-items: center;
-  
+
 }
 
-#navIndex ul ul li{
+#navIndex ul ul li {
   display: block;
   width: 100%;
   background-color: black;
   margin-left: 0%;
   padding-left: 1%;
-  
-  
+
+
 }
 
 
-#navIndex ul li a{
-  display:flex;
+#navIndex ul li a {
+  display: flex;
   color: antiquewhite;
   text-decoration: none;
   justify-content: space-around;
   padding-top: 1.5%;
-  
+
 }
 
 #navIndex ul li:hover ul {
@@ -163,35 +163,35 @@ body{
 nav li:hover {
   display: block;
   background-color: lightgray;
-  color:black;
-  
+  color: black;
+
 }
 
 
-#logo{
+#logo {
   align-items: center;
   justify-content: center;
-  margin-left:43%;
+  margin-left: 43%;
   height: 200px;
   width: 200px;
 }
 
-main{
+main {
   background-color: lightgray;
   font-family: 'Jost', sans-serif;
-  margin:5px;
+  margin: 5px;
 
 }
 
-#indexFooterSb{
+#indexFooterSb {
   display: flex;
   background-color: black;
 }
 
-#indexFooterSb #indexFooter{
+#indexFooterSb #indexFooter {
   font-family: 'Jost', sans-serif;
   margin-left: 35%;
-  margin-top:3.5%;
+  margin-top: 3.5%;
   color: whitesmoke;
   display: inline;
 
@@ -203,39 +203,39 @@ main{
   bottom: 15px;
 }
 
-#grillaC #contact{
+#grillaC #contact {
   margin-top: 1%;
-  margin-left:15%;
+  margin-left: 15%;
   width: 30%;
   list-style: none;
- 
+
 }
 
-#grillaC #contact li{
+#grillaC #contact li {
   padding: 1%;
   justify-items: left;
 }
 
-#grillaC #intro1 #subtitle1{
-  
+#grillaC #intro1 #subtitle1 {
+
   margin-top: 4%;
 }
 
 
-#grillaC #maps #subtitle2{
-  
+#grillaC #maps #subtitle2 {
+
   padding-bottom: 0;
 }
 
-#grillaC #contact #subtitle2{
+#grillaC #contact #subtitle2 {
   text-align: left;
   padding-top: 0;
   margin-top: 0;
   margin-bottom: 7%;
-  
+
 }
 
-#grillaC #contact #subtitle3{
+#grillaC #contact #subtitle3 {
   text-align: left;
   margin-top: 5%;
   margin-bottom: 7%;
@@ -244,40 +244,40 @@ main{
 #grillaC #maps {
   margin-right: 15%;
   margin-top: 2%;
-  width:40%;
+  width: 40%;
 }
 
 #grillaC #location {
-  
+
   margin-top: 3%;
-  
+
 }
 
-#whatsBlack{
-  width:32px;
-  height:32px;
+#whatsBlack {
+  width: 32px;
+  height: 32px;
   display: inline;
   margin-right: 2%;
 
 }
 
-#instaBlack{
-  width:32px;
-  height:32px;
+#instaBlack {
+  width: 32px;
+  height: 32px;
   display: inline;
   margin-right: 2%;
 }
 
-#faceBlack{
-  width:32px;
-  height:32px;
+#faceBlack {
+  width: 32px;
+  height: 32px;
   display: inline;
   margin-right: 2%;
 }
 
-#emailBlack{
-  width:30px;
-  height:30px;
+#emailBlack {
+  width: 30px;
+  height: 30px;
   display: inline;
   margin-right: 2%;
 
@@ -286,170 +286,170 @@ main{
 #grillaC #contact {
   margin-left: 25%;
   margin-right: 0;
-  padding:1%;
-  width:30%;
+  padding: 1%;
+  width: 30%;
 }
 
-#indexFooterSb #indexFooter li{
+#indexFooterSb #indexFooter li {
   list-style: none;
   display: inline;
-  margin-top:0;
-  
+  margin-top: 0;
+
 }
 
-#indexFooterSb #indexFooter #whatsBlack{
-  width:40px;
-  height:40px;
-  margin-right: 0;
-  
-}
-
-#indexFooterSb #indexFooter #faceBlack{
-  width:40px;
-  height:40px;
-  margin-right: 0;
-}
-
-#indexFooterSb #indexFooter #instaBlack{
-  width:40px;
-  height:40px;
+#indexFooterSb #indexFooter #whatsBlack {
+  width: 40px;
+  height: 40px;
   margin-right: 0;
 
 }
 
-#indexFooterSb #indexFooter{
-  
+#indexFooterSb #indexFooter #faceBlack {
+  width: 40px;
+  height: 40px;
+  margin-right: 0;
+}
+
+#indexFooterSb #indexFooter #instaBlack {
+  width: 40px;
+  height: 40px;
+  margin-right: 0;
+
+}
+
+#indexFooterSb #indexFooter {
+
   margin-top: 0;
   align-items: center;
   justify-content: center;
-  text-align:center;
+  text-align: center;
 
 }
 
-#indexFooterSb #indexFooter #copy{
-  margin-top:10%;
+#indexFooterSb #indexFooter #copy {
+  margin-top: 10%;
   margin-bottom: 0%;
 }
 
 
-#indexFooterSb #indexFooter #truck{
+#indexFooterSb #indexFooter #truck {
   margin-bottom: 0;
   margin-top: 1%;
   margin-left: 30%;
   align-items: center;
   justify-content: center;
-  
+
 }
 
 
-#intro1{
-  padding:1%;
+#intro1 {
+  padding: 1%;
 }
 
-#intro2 #subtitle2{
+#intro2 #subtitle2 {
   text-align: center;
   margin-bottom: 5%;
 }
 
-#intro2{
-  padding:1%;
-  width:50%;
+#intro2 {
+  padding: 1%;
+  width: 50%;
 }
 
-#intro1 #subtitle1{
+#intro1 #subtitle1 {
   text-align: center;
   font-size: 30px;
   margin-top: 2%;
-  margin-bottom:3%;
+  margin-bottom: 3%;
 
 }
 
-#introEp{
-  padding:2%;
+#introEp {
+  padding: 2%;
 }
 
-#introEp #subtitleEp{
+#introEp #subtitleEp {
   font-size: 28px;
 }
 
 
-#landPage{
-  display:flex;
+#landPage {
+  display: flex;
 }
 
-#landPageTwo{
-  display:flex;
+#landPageTwo {
+  display: flex;
   margin-top: 0.5%;
-  background: rgb(141,202,227);
-background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgba(215,221,220,0.8939950980392157) 33%, rgba(200,206,206,0.5662640056022409) 75%, rgba(203,208,208,0.49343487394957986) 100%);
-  
+  background: rgb(141, 202, 227);
+  background: linear-gradient(205deg, rgba(141, 202, 227, 0.6166841736694677) 0%, rgba(215, 221, 220, 0.8939950980392157) 33%, rgba(200, 206, 206, 0.5662640056022409) 75%, rgba(203, 208, 208, 0.49343487394957986) 100%);
+
 }
 
-#landPageTwo #paymentMedia{
-  display:flex;
-  width:100%;
+#landPageTwo #paymentMedia {
+  display: flex;
+  width: 100%;
   padding: 2%;
 }
 
-#landPageTwo #deliveryMode{
-  display:flex;
-  width:100%;
+#landPageTwo #deliveryMode {
+  display: flex;
+  width: 100%;
   padding: 2%;
   padding-left: 0;
 }
 
-#landPageTwo #paymentD{
-  display:inline-block;
-  width:100%;
+#landPageTwo #paymentD {
+  display: inline-block;
+  width: 100%;
   margin-top: 7%;
   list-style: none;
 }
 
-#landPageTwo #paymentD p{
+#landPageTwo #paymentD p {
   margin-top: 5%;
 }
 
-#landPageTwo #paymentD h3{
+#landPageTwo #paymentD h3 {
   margin-bottom: 10%;
 }
 
-#landPageTwo #paymentA{
-  display:inline-block;
-  width: 100%; 
+#landPageTwo #paymentA {
+  display: inline-block;
+  width: 100%;
   height: 100%;
 }
 
-#landPageTwo #deliveryD{
-  display:inline-block;
-  width:100%;
-  margin-top:7%;
+#landPageTwo #deliveryD {
+  display: inline-block;
+  width: 100%;
+  margin-top: 7%;
 }
 
-#landPageTwo #deliveryA{
-  display:inline-block;
-  width:100%;
+#landPageTwo #deliveryA {
+  display: inline-block;
+  width: 100%;
 }
 
 #landPageThree {
   padding: 2%;
   display: flex;
   border-radius: 2rem;
-  background: rgb(185,237,175);
-  background: linear-gradient(90deg, rgba(185,237,175,1) 0%, rgba(185,188,189,1) 71%, rgba(158,184,184,1) 100%);
+  background: rgb(185, 237, 175);
+  background: linear-gradient(90deg, rgba(185, 237, 175, 1) 0%, rgba(185, 188, 189, 1) 71%, rgba(158, 184, 184, 1) 100%);
 
 
 }
 
-#landPageThree #ambientA{
+#landPageThree #ambientA {
   margin-right: 2%;
-   margin-left: 3%;
+  margin-left: 3%;
 }
 
-#carousel{
-  width:100%;
+#carousel {
+  width: 100%;
 }
 
-#grillaEp1 button{
+#grillaEp1 button {
   margin-left: 5%;
   margin-right: 8%;
 }
@@ -502,39 +502,39 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
   display: flex;
 }
 
-#grillaEp #carouselExampleControls1 img{
-  width:62%;
-  margin-left:18%;
+#grillaEp #carouselExampleControls1 img {
+  width: 62%;
+  margin-left: 18%;
   margin-bottom: 3%;
 }
 
-#grillaEx #carouselExampleControls1 img{
-  width:62%;
-  margin-left:18%;
+#grillaEx #carouselExampleControls1 img {
+  width: 62%;
+  margin-left: 18%;
   margin-bottom: 3%;
 }
 
-#grillaBu #carouselExampleControls1 img{
-  width:62%;
-  margin-left:18%;
+#grillaBu #carouselExampleControls1 img {
+  width: 62%;
+  margin-left: 18%;
   margin-bottom: 3%;
 }
 
-#grillaEp #carouselExampleControls2 img{
-  width:62%;
-  margin-left:18%;
+#grillaEp #carouselExampleControls2 img {
+  width: 62%;
+  margin-left: 18%;
   margin-bottom: 3%;
 }
 
-#grillaEx #carouselExampleControls2 img{
-  width:62%;
-  margin-left:18%;
+#grillaEx #carouselExampleControls2 img {
+  width: 62%;
+  margin-left: 18%;
   margin-bottom: 3%;
 }
 
-#grillaBu #carouselExampleControls2 img{
-  width:62%;
-  margin-left:18%;
+#grillaBu #carouselExampleControls2 img {
+  width: 62%;
+  margin-left: 18%;
   margin-bottom: 3%;
 }
 
@@ -545,9 +545,9 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
   display: flex;
 }
 
-#grillaEp #carouselExampleControls3 img{
-  width:62%;
-  margin-left:18%;
+#grillaEp #carouselExampleControls3 img {
+  width: 62%;
+  margin-left: 18%;
   margin-bottom: 3%;
 }
 
@@ -558,9 +558,9 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
   display: flex;
 }
 
-#grillaEx #carouselExampleControls3 img{
-  width:62%;
-  margin-left:18%;
+#grillaEx #carouselExampleControls3 img {
+  width: 62%;
+  margin-left: 18%;
   margin-bottom: 3%;
 }
 
@@ -571,9 +571,9 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
   display: flex;
 }
 
-#grillaBu #carouselExampleControls3 img{
-  width:62%;
-  margin-left:18%;
+#grillaBu #carouselExampleControls3 img {
+  width: 62%;
+  margin-left: 18%;
   margin-bottom: 3%;
 }
 
@@ -584,9 +584,9 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
   display: flex;
 }
 
-#grillaEp #carouselExampleControls4 img{
-  width:62%;
-  margin-left:18%;
+#grillaEp #carouselExampleControls4 img {
+  width: 62%;
+  margin-left: 18%;
   margin-bottom: 3%;
 }
 
@@ -597,9 +597,9 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
   display: flex;
 }
 
-#grillaEx #carouselExampleControls4 img{
-  width:62%;
-  margin-left:18%;
+#grillaEx #carouselExampleControls4 img {
+  width: 62%;
+  margin-left: 18%;
   margin-bottom: 3%;
 }
 
@@ -610,9 +610,9 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
   display: flex;
 }
 
-#grillaBu #carouselExampleControls4 img{
-  width:62%;
-  margin-left:18%;
+#grillaBu #carouselExampleControls4 img {
+  width: 62%;
+  margin-left: 18%;
   margin-bottom: 3%;
 }
 
@@ -623,9 +623,9 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
   display: flex;
 }
 
-#grillaEp #carouselExampleControls5 img{
-  width:62%;
-  margin-left:18%;
+#grillaEp #carouselExampleControls5 img {
+  width: 62%;
+  margin-left: 18%;
   margin-bottom: 3%;
 }
 
@@ -636,9 +636,9 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
   display: flex;
 }
 
-#grillaEx #carouselExampleControls5 img{
-  width:62%;
-  margin-left:18%;
+#grillaEx #carouselExampleControls5 img {
+  width: 62%;
+  margin-left: 18%;
   margin-bottom: 3%;
 }
 
@@ -649,9 +649,9 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
   display: flex;
 }
 
-#grillaBu #carouselExampleControls5 img{
-  width:62%;
-  margin-left:18%;
+#grillaBu #carouselExampleControls5 img {
+  width: 62%;
+  margin-left: 18%;
   margin-bottom: 3%;
 }
 
@@ -662,9 +662,9 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
   display: flex;
 }
 
-#grillaEp #carouselExampleControls6 img{
-  width:62%;
-  margin-left:18%;
+#grillaEp #carouselExampleControls6 img {
+  width: 62%;
+  margin-left: 18%;
   margin-bottom: 3%;
 }
 
@@ -675,9 +675,9 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
   display: flex;
 }
 
-#grillaEx #carouselExampleControls6 img{
-  width:62%;
-  margin-left:18%;
+#grillaEx #carouselExampleControls6 img {
+  width: 62%;
+  margin-left: 18%;
   margin-bottom: 3%;
 }
 
@@ -688,9 +688,9 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
   display: flex;
 }
 
-#grillaBu #carouselExampleControls6 img{
-  width:62%;
-  margin-left:18%;
+#grillaBu #carouselExampleControls6 img {
+  width: 62%;
+  margin-left: 18%;
   margin-bottom: 3%;
 }
 
@@ -702,9 +702,9 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
 }
 
 
-#grillaEp #carouselExampleControls7 img{
-  width:62%;
-  margin-left:18%;
+#grillaEp #carouselExampleControls7 img {
+  width: 62%;
+  margin-left: 18%;
   margin-bottom: 3%;
 }
 
@@ -715,9 +715,9 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
   display: flex;
 }
 
-#grillaEx #carouselExampleControls7 img{
-  width:62%;
-  margin-left:18%;
+#grillaEx #carouselExampleControls7 img {
+  width: 62%;
+  margin-left: 18%;
   margin-bottom: 3%;
 }
 
@@ -728,64 +728,64 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
   display: flex;
 }
 
-#grillaBu #carouselExampleControls7 img{
-  width:62%;
-  margin-left:18%;
+#grillaBu #carouselExampleControls7 img {
+  width: 62%;
+  margin-left: 18%;
   margin-bottom: 3%;
 }
 
-#grillaBp #carouselExampleControls1 img{
-  width:62%;
-  margin-left:18%;
+#grillaBp #carouselExampleControls1 img {
+  width: 62%;
+  margin-left: 18%;
   margin-bottom: 3%;
 }
 
 
-#grillaBp #carouselExampleControls2 img{
-  width:62%;
-  margin-left:18%;
+#grillaBp #carouselExampleControls2 img {
+  width: 62%;
+  margin-left: 18%;
   margin-bottom: 3%;
 }
 
-#grillaBp #carouselExampleControls3 img{
-  width:62%;
-  margin-left:18%;
+#grillaBp #carouselExampleControls3 img {
+  width: 62%;
+  margin-left: 18%;
   margin-bottom: 3%;
 }
 
-#grillaBp #carouselExampleControls4 img{
-  width:62%;
-  margin-left:18%;
+#grillaBp #carouselExampleControls4 img {
+  width: 62%;
+  margin-left: 18%;
   margin-bottom: 3%;
 }
 
-#grillaBp #carouselExampleControls5 img{
-  width:62%;
-  margin-left:18%;
+#grillaBp #carouselExampleControls5 img {
+  width: 62%;
+  margin-left: 18%;
   margin-bottom: 3%;
 }
 
-#grillaBp #carouselExampleControls6 img{
-  width:62%;
-  margin-left:18%;
+#grillaBp #carouselExampleControls6 img {
+  width: 62%;
+  margin-left: 18%;
   margin-bottom: 3%;
 }
 
-#grillaBp #carouselExampleControls7 img{
-  width:62%;
-  margin-left:18%;
+#grillaBp #carouselExampleControls7 img {
+  width: 62%;
+  margin-left: 18%;
   margin-bottom: 3%;
 }
 
-#grillaBp #carouselExampleControls8 img{
-  width:62%;
-  margin-left:18%;
+#grillaBp #carouselExampleControls8 img {
+  width: 62%;
+  margin-left: 18%;
   margin-bottom: 3%;
 }
 
-#grillaBp #carouselExampleControls9 img{
-  width:62%;
-  margin-left:18%;
+#grillaBp #carouselExampleControls9 img {
+  width: 62%;
+  margin-left: 18%;
   margin-bottom: 3%;
 }
 
@@ -810,7 +810,7 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
   display: flex;
 }
 
-#grillaBp #carouselExampleControls4{
+#grillaBp #carouselExampleControls4 {
   margin-top: 0;
   margin-right: 15px;
   margin-left: 15px;
@@ -854,67 +854,86 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
 
 #menuHamb {
   display: none;
-  
-  
+
+
 }
 
 
 
 @media only screen and (max-width: 768px) {
 
-  main{
-    margin:0;
+  main {
+    margin: 0;
   }
 
 
   #grillaIndex {
-    
+
     grid-template-rows: 5% 84% 12%;
   }
+
+  #grillaEp{
+    grid-template-rows: 7% 85% 12%;
     
+  }
+
+  #grillaEp main{
+    padding:2%;
+  }
+
+  #grillaEp #introEp #subtitleEp{
+    font-size:25px;
+    text-align:center;
+  }
+
+  #grillaEp #grillaEp1 h3{
+    font-size:18px;
+    text-align:center;
+    margin:0;
+  }
 
   #logo {
-    
+
     height: 130px;
     width: 130px;
-    position:center;
+    position: center;
     align-items: center;
     justify-content: center;
-    margin-left:33%;
+    margin-left: 33%;
     margin-top: 4%;
   }
 
-  #landPage{
+  #landPage {
     display: inline;
   }
 
-  #landPageTwo{
+  #landPageTwo {
     display: inline-block;
   }
 
-  #landPageThree{
+  #landPageThree {
     display: inline-block;
     padding: 5%;
   }
 
-  #landPageThree #ambientA{
-    
+  #landPageThree #ambientA {
+
     justify-content: center;
-    position:center;
+    position: center;
     align-items: center;
-    margin-left:19%;
+    margin-left: 19%;
 
   }
 
-  #carousel{
+  #carousel {
     display: inline-block;
     position: absolute;
     top: 35%;
-    width: 100%; 
+    width: 100%;
     z-index: 1;
   }
 
-  #landPage #intro2{
+  #landPage #intro2 {
     margin-top: 65%;
     width: 100%;
     padding: 5%;
@@ -922,35 +941,35 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
 
   }
 
-  #landPageTwo #paymentMedia{
+  #landPageTwo #paymentMedia {
     display: block;
     width: 100%;
     justify-content: center;
     padding: 5%;
     font-size: 16px;
-    
+
 
   }
 
-  #paymentD{
+  #paymentD {
     display: block;
     width: 100%;
     justify-content: center;
 
   }
 
-  #landPageTwo #paymentA{
+  #landPageTwo #paymentA {
     display: block;
     width: 70%;
     height: 70%;
     justify-content: center;
-    margin-left:10%;
+    margin-left: 10%;
     top: 10%;
     position: sticky;
-  
+
   }
 
-  #landPageTwo #deliveryMode{
+  #landPageTwo #deliveryMode {
     display: block;
     width: 100%;
     justify-content: center;
@@ -958,65 +977,68 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
     font-size: 16px;
   }
 
-  #deliveryD{
+  #deliveryD {
     display: block;
     width: 100%;
     justify-content: center;
   }
 
-  #landPageTwo #deliveryA{
+  #landPageTwo #deliveryA {
     display: block;
     width: 70%;
     height: 70%;
     justify-content: center;
-    margin-left:10%;
+    margin-left: 10%;
     top: 10%;
     position: sticky;
   }
 
-  #indexFooterSb #indexFooter{
-  
-  margin-top: 4%;
-  margin-left: 0%;
-  padding: 1%;
-  font-size:14px;
-  
+  #indexFooterSb #indexFooter {
 
-  } 
+    margin-top: 4%;
+    margin-left: 0%;
+    padding: 1%;
+    font-size: 14px;
+
+
+  }
 
   #navIndex {
     display: none;
-    
+
   }
 
 
   #grillaIndex #menuHamb {
-  display:contents;
-  
+    display: contents;
+  }
 
-}
-  
-  #ulHamb{
+  #grillaEp #menuHamb {
+    display: contents;
+  }
+
+  #ulHamb {
     display: none;
     margin-top: 8%;
     margin-left: 0;
-    width:90%;
-    height:100%;
-    padding: 0;  
+    width: 90%;
+    height: 100%;
+    padding: 0;
     z-index: 2;
+    ;
   }
 
-   input:checked  ~ #ulHamb{
-    display:block;
+  input:checked~#ulHamb {
+    display: block;
     float: left;
-    position:absolute;
+    position: absolute;
   }
 
   input {
     display: none;
   }
 
-   label {
+  label {
     box-sizing: border-box;
     display: inline-block;
     background-color: transparent;
@@ -1032,64 +1054,157 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
   }
 
   #grillaIndex #menuHamb #ulHamb li {
-  display: block;
-  color: white;
-  background: black;
-  margin: 0;
-  padding: 1%;
-  padding-left: 3%;
-  list-style:none; 
-  position:relative;
-  
+    display: block;
+    color: white;
+    background: black;
+    margin: 0;
+    padding: 4%;
+    padding-left: 3%;
+    list-style: none;
+    position: relative;
+    font-size: 20px;
+
+
   }
 
- 
 
-  #grillaIndex #menuHamb #ulHamb li ul li{
+
+  #grillaIndex #menuHamb #ulHamb li ul li {
 
 
     color: black;
-    list-style:none; 
+    list-style: none;
     text-decoration: none;
     font-family: 'Jost', sans-serif;
     position: relative;
     z-index: 3;
     margin-left: 10%;
-    }
+  }
 
 
-  #grillaIndex #menuHamb #ulHamb li a{
-    
+  #grillaIndex #menuHamb #ulHamb li a {
+
     color: white;
-    list-style:none; 
+    list-style: none;
     text-decoration: none;
     font-family: 'Jost', sans-serif;
-    cursor:pointer;
-    
-    }
+    cursor: pointer;
 
-    #grillaIndex #menuHamb #ulHamb li ul{
-      display: none;
-      position: relative;
-      margin-left: 1%;
-      color: black;
-      
-    }
+  }
 
-    #grillaIndex #menuHamb #ulHamb li:hover ul {
-      display: block;
-      width: 100%;
-      color: black;
-      
+  #grillaIndex #menuHamb #ulHamb li ul {
+    display: none;
+    position: relative;
+    margin-left: 1%;
+    color: black;
 
-    }
+  }
 
-    
+  #grillaIndex #menuHamb #ulHamb li:hover ul {
+    display: block;
+    width: 100%;
+    color: black;
 
-   
-    
-    
-  
+
+  }
+
+
+  #grillaEp #menuHamb #ulHamb li {
+    display: block;
+    color: white;
+    background: black;
+    margin: 0;
+    padding: 4%;
+    padding-left: 3%;
+    list-style: none;
+    position: relative;
+    font-size: 20px;
+
+
+  }
+
+
+
+  #grillaEp #menuHamb #ulHamb li ul li {
+
+
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    position: relative;
+    z-index: 3;
+    margin-left: 10%;
+  }
+
+
+  #grillaEp #menuHamb #ulHamb li a {
+
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    cursor: pointer;
+
+  }
+
+  #grillaEp #menuHamb #ulHamb li ul {
+    display: none;
+    position: relative;
+    margin-left: 1%;
+    color: black;
+
+  }
+
+  #grillaEp #menuHamb #ulHamb li:hover ul {
+    display: block;
+    width: 100%;
+    color: black;
+  }
+
+
+  #grillaEp #carouselExampleControls1 img {
+    width: 100%;
+    margin-left:0;
+  }
+
+  #grillaEp #carouselExampleControls2 img {
+    width: 100%;
+    margin-left:0;
+  }
+
+  #grillaEp #carouselExampleControls3 img {
+    width: 100%;
+    margin-left:0;
+  }
+
+  #grillaEp #carouselExampleControls4 img {
+    width: 100%;
+    margin-left:0;
+  }
+
+  #grillaEp #carouselExampleControls5 img {
+    width: 100%;
+    margin-left:0;
+  }
+
+  #grillaEp #carouselExampleControls6 img {
+    width: 100%;
+    margin-left:0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1097,15 +1212,3 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
