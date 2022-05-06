@@ -869,7 +869,7 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
 
   #grillaIndex {
     
-    grid-template-rows: 4% 1% 83% 12%;
+    grid-template-rows: 5% 84% 12%;
   }
     
 
@@ -880,8 +880,8 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
     position:center;
     align-items: center;
     justify-content: center;
-    margin-left: 35%;
-   
+    margin-left:33%;
+    margin-top: 4%;
   }
 
   #landPage{
@@ -902,15 +902,16 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
     justify-content: center;
     position:center;
     align-items: center;
-    margin-left:17%;
+    margin-left:19%;
 
   }
 
   #carousel{
     display: inline-block;
     position: absolute;
-    top: 37%;
+    top: 35%;
     width: 100%; 
+    z-index: 1;
   }
 
   #landPage #intro2{
@@ -997,25 +998,18 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
   
   #ulHamb{
     display: none;
-    margin-top: 33%;
-    margin-left: 8%;
-    width:80%;
+    margin-top: 8%;
+    margin-left: 0;
+    width:90%;
     height:100%;
     padding: 0;  
     z-index: 2;
-
-
-  }
-
-  #carousel{
-    z-index: 1;
   }
 
    input:checked  ~ #ulHamb{
     display:block;
     float: left;
     position:absolute;
-    
   }
 
   input {
@@ -1025,16 +1019,16 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
    label {
     box-sizing: border-box;
     display: inline-block;
-    border: 1px solid black;
-    background-color: black;
-    color: white;
-    border-radius: 5px;
+    background-color: transparent;
+    color: black;
     width: 30px;
     height: 30px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 40px;
     font-weight: bold;
     text-align: center;
     user-select: none;
+    position: absolute;
   }
 
   #grillaIndex #menuHamb #ulHamb li {
@@ -1053,13 +1047,16 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
 
   #grillaIndex #menuHamb #ulHamb li ul li{
 
-    
-    color: white;
+
+    color: black;
     list-style:none; 
     text-decoration: none;
     font-family: 'Jost', sans-serif;
     position: relative;
+    z-index: 3;
+    margin-left: 10%;
     }
+
 
   #grillaIndex #menuHamb #ulHamb li a{
     
@@ -1067,8 +1064,29 @@ background: linear-gradient(205deg, rgba(141,202,227,0.6166841736694677) 0%, rgb
     list-style:none; 
     text-decoration: none;
     font-family: 'Jost', sans-serif;
+    cursor:pointer;
+    
     }
 
+    #grillaIndex #menuHamb #ulHamb li ul{
+      display: none;
+      position: relative;
+      margin-left: 1%;
+      color: black;
+      
+    }
+
+    #grillaIndex #menuHamb #ulHamb li:hover ul {
+      display: block;
+      width: 100%;
+      color: black;
+      
+
+    }
+
+    
+
+   
     
     
   
