@@ -929,12 +929,20 @@ main {
   }
 
   #carousel {
-    display: inline;
+    display: inline-block;
     position:absolute;
     top: 35%;
     width: 100%;
     z-index: 1;
   }
+
+  #grillaIndex #carouselExampleControls {
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+
 
   #landPage #intro2 {
     margin-top: 65%;
