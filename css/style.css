@@ -929,8 +929,8 @@ main {
   }
 
   #carousel {
-    display: inline-block;
-    position: absolute;
+    display: inline;
+    position:absolute;
     top: 35%;
     width: 100%;
     z-index: 1;
