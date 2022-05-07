@@ -892,6 +892,8 @@ main {
     margin:0;
     margin-top:4%;
     margin-bottom: 2%;
+    margin-left:2%;
+    margin-right:2%;
   }
 
 
@@ -1182,8 +1184,18 @@ main {
     margin-left:0;
   }
 
+  #grillaEp #carouselExampleControls1  {
+    margin-right:0;
+    margin-left:0;
+  }
+
   #grillaEp #carouselExampleControls2 img {
     width: 100%;
+    margin-left:0;
+  }
+
+  #grillaEp #carouselExampleControls2  {
+    margin-right:0;
     margin-left:0;
   }
 
@@ -1192,8 +1204,18 @@ main {
     margin-left:0;
   }
 
+  #grillaEp #carouselExampleControls3  {
+    margin-right:0;
+    margin-left:0;
+  }
+
   #grillaEp #carouselExampleControls4 img {
     width: 100%;
+    margin-left:0;
+  }
+
+  #grillaEp #carouselExampleControls4  {
+    margin-right:0;
     margin-left:0;
   }
 
@@ -1202,8 +1224,18 @@ main {
     margin-left:0;
   }
 
+  #grillaEp #carouselExampleControls5  {
+    margin-right:0;
+    margin-left:0;
+  }
+
   #grillaEp #carouselExampleControls6 img {
     width: 100%;
+    margin-left:0;
+  }
+
+  #grillaEp #carouselExampleControls6  {
+    margin-right:0;
     margin-left:0;
   }
 
