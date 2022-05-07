@@ -868,13 +868,15 @@ main {
 
 
   #grillaIndex {
-
     grid-template-rows: 5% 84% 12%;
   }
 
   #grillaEp{
     grid-template-rows: 5% 85% 12%;
-    
+  }
+
+  #grillaBp{
+    grid-template-rows: 5% 85% 12%;    
   }
 
   #grillaEp #introEp{
@@ -1010,26 +1012,25 @@ main {
   }
 
   #indexFooterSb #indexFooter {
-
     margin-top: 4%;
     margin-left: 0%;
     padding: 1%;
     font-size: 14px;
-
-
   }
 
   #navIndex {
     display: none;
-
   }
-
 
   #grillaIndex #menuHamb {
     display: contents;
   }
 
   #grillaEp #menuHamb {
+    display: contents;
+  }
+
+  #grillaBp #menuHamb {
     display: contents;
   }
 
@@ -1248,6 +1249,18 @@ main {
     
     margin-left:2%;
   }
+
+  #grillaBp #intro1 #subtitle1{
+    font-size:26px;   
+  }
+
+  #grillaBp #introEp h3{
+    font-size:20px;   
+    text-align:center;
+    margin-bottom:10%;
+  }
+
+ 
 
 
 
