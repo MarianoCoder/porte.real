@@ -942,7 +942,9 @@ main {
   margin-left: 0;
 }
 
-
+#landPage {
+  display: inline-block;
+}
 
   #landPage #intro2 {
     margin-top: 65%;
