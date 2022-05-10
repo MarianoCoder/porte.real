@@ -854,8 +854,10 @@ main {
 
 #menuHamb {
   display: none;
+}
 
-
+#NavEp{
+  cursor:pointer;
 }
 
 
