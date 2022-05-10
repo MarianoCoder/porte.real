@@ -878,6 +878,14 @@ main {
   }
 
   #grillaBp{
+    grid-template-rows: 4% 88% 10%;    
+  }
+
+  #grillaBu{
+    grid-template-rows: 5% 85% 12%;    
+  }
+
+  #grillaEx{
     grid-template-rows: 5% 85% 12%;    
   }
 
@@ -1036,6 +1044,14 @@ main {
     display: contents;
   }
 
+  #grillaBu #menuHamb {
+    display: contents;
+  }
+
+  #grillaEx #menuHamb {
+    display: contents;
+  }
+
   #ulHamb {
     display: none;
     margin-top: 8%;
@@ -1072,7 +1088,7 @@ main {
     position: absolute;
   }
 
-  #grillaIndex #menuHamb #ulHamb li {
+  #menuHamb #ulHamb li {
     display: block;
     color: white;
     background: black;
@@ -1082,15 +1098,9 @@ main {
     list-style: none;
     position: relative;
     font-size: 20px;
-
-
   }
 
-
-
-  #grillaIndex #menuHamb #ulHamb li ul li {
-
-
+  #menuHamb #ulHamb li ul li {
     color: black;
     list-style: none;
     text-decoration: none;
@@ -1100,87 +1110,26 @@ main {
     margin-left: 10%;
   }
 
-
-  #grillaIndex #menuHamb #ulHamb li a {
-
+  #menuHamb #ulHamb li a {
     color: white;
     list-style: none;
     text-decoration: none;
     font-family: 'Jost', sans-serif;
     cursor: pointer;
-
   }
 
-  #grillaIndex #menuHamb #ulHamb li ul {
+  #menuHamb #ulHamb li ul {
     display: none;
     position: relative;
     margin-left: 1%;
     color: black;
-
   }
 
-  #grillaIndex #menuHamb #ulHamb li:hover ul {
-    display: block;
-    width: 100%;
-    color: black;
-
-
-  }
-
-
-  #grillaEp #menuHamb #ulHamb li {
-    display: block;
-    color: white;
-    background: black;
-    margin: 0;
-    padding: 4%;
-    padding-left: 3%;
-    list-style: none;
-    position: relative;
-    font-size: 20px;
-
-
-  }
-
-
-
-  #grillaEp #menuHamb #ulHamb li ul li {
-
-
-    color: black;
-    list-style: none;
-    text-decoration: none;
-    font-family: 'Jost', sans-serif;
-    position: relative;
-    z-index: 3;
-    margin-left: 10%;
-  }
-
-
-  #grillaEp #menuHamb #ulHamb li a {
-
-    color: white;
-    list-style: none;
-    text-decoration: none;
-    font-family: 'Jost', sans-serif;
-    cursor: pointer;
-
-  }
-
-  #grillaEp #menuHamb #ulHamb li ul {
-    display: none;
-    position: relative;
-    margin-left: 1%;
-    color: black;
-
-  }
-
-  #grillaEp #menuHamb #ulHamb li:hover ul {
+  #menuHamb #ulHamb li:hover ul {
     display: block;
     width: 100%;
     color: black;
   }
-
 
   #grillaEp #carouselExampleControls1 img {
     width: 100%;
@@ -1188,6 +1137,36 @@ main {
   }
 
   #grillaEp #carouselExampleControls1  {
+    margin-right:0;
+    margin-left:0;
+  }
+
+  #grillaBp #carouselExampleControls1 img {
+    width: 100%;
+    margin-left:0;
+  }
+
+  #grillaBp #carouselExampleControls1  {
+    margin-right:0;
+    margin-left:0;
+  }
+
+  #grillaBu #carouselExampleControls1 img {
+    width: 100%;
+    margin-left:0;
+  }
+
+  #grillaBu #carouselExampleControls1  {
+    margin-right:0;
+    margin-left:0;
+  }
+
+  #grillaEx #carouselExampleControls1 img {
+    width: 100%;
+    margin-left:0;
+  }
+
+  #grillaEx #carouselExampleControls1  {
     margin-right:0;
     margin-left:0;
   }
@@ -1202,6 +1181,36 @@ main {
     margin-left:0;
   }
 
+  #grillaBp #carouselExampleControls2 img {
+    width: 100%;
+    margin-left:0;
+  }
+
+  #grillaBp #carouselExampleControls2  {
+    margin-right:0;
+    margin-left:0;
+  }
+
+  #grillaBu #carouselExampleControls2 img {
+    width: 100%;
+    margin-left:0;
+  }
+
+  #grillaBu #carouselExampleControls2  {
+    margin-right:0;
+    margin-left:0;
+  }
+
+  #grillaEx #carouselExampleControls2 img {
+    width: 100%;
+    margin-left:0;
+  }
+
+  #grillaEx #carouselExampleControls2  {
+    margin-right:0;
+    margin-left:0;
+  }
+
   #grillaEp #carouselExampleControls3 img {
     width: 100%;
     margin-left:0;
@@ -1212,12 +1221,72 @@ main {
     margin-left:0;
   }
 
+  #grillaBp #carouselExampleControls3 img {
+    width: 100%;
+    margin-left:0;
+  }
+
+  #grillaBp #carouselExampleControls3  {
+    margin-right:0;
+    margin-left:0;
+  }
+
+  #grillaBu #carouselExampleControls3 img {
+    width: 100%;
+    margin-left:0;
+  }
+
+  #grillaBu #carouselExampleControls3  {
+    margin-right:0;
+    margin-left:0;
+  }
+
   #grillaEp #carouselExampleControls4 img {
     width: 100%;
     margin-left:0;
   }
 
+  #grillaEx #carouselExampleControls3 img {
+    width: 100%;
+    margin-left:0;
+  }
+
+  #grillaEx #carouselExampleControls3  {
+    margin-right:0;
+    margin-left:0;
+  }
+
   #grillaEp #carouselExampleControls4  {
+    margin-right:0;
+    margin-left:0;
+  }
+
+  #grillaBp #carouselExampleControls4 img {
+    width: 100%;
+    margin-left:0;
+  }
+
+  #grillaBp #carouselExampleControls4  {
+    margin-right:0;
+    margin-left:0;
+  }
+
+  #grillaBu #carouselExampleControls4 img {
+    width: 100%;
+    margin-left:0;
+  }
+
+  #grillaBu #carouselExampleControls4  {
+    margin-right:0;
+    margin-left:0;
+  }
+
+  #grillaEx #carouselExampleControls4 img {
+    width: 100%;
+    margin-left:0;
+  }
+
+  #grillaEx #carouselExampleControls4  {
     margin-right:0;
     margin-left:0;
   }
@@ -1232,12 +1301,102 @@ main {
     margin-left:0;
   }
 
+  #grillaBp #carouselExampleControls5 img {
+    width: 100%;
+    margin-left:0;
+  }
+
+  #grillaBp #carouselExampleControls5  {
+    margin-right:0;
+    margin-left:0;
+  }
+
+  #grillaBu #carouselExampleControls5 img {
+    width: 100%;
+    margin-left:0;
+  }
+
+  #grillaBu #carouselExampleControls5  {
+    margin-right:0;
+    margin-left:0;
+  }
+
+  #grillaEx #carouselExampleControls5 img {
+    width: 100%;
+    margin-left:0;
+  }
+
+  #grillaEx #carouselExampleControls5  {
+    margin-right:0;
+    margin-left:0;
+  }
+
   #grillaEp #carouselExampleControls6 img {
     width: 100%;
     margin-left:0;
   }
 
   #grillaEp #carouselExampleControls6  {
+    margin-right:0;
+    margin-left:0;
+  }
+
+  #grillaBp #carouselExampleControls6 img {
+    width: 100%;
+    margin-left:0;
+  }
+
+  #grillaBp #carouselExampleControls6  {
+    margin-right:0;
+    margin-left:0;
+  }
+
+  #grillaBu #carouselExampleControls6 img {
+    width: 100%;
+    margin-left:0;
+  }
+
+  #grillaBu #carouselExampleControls6  {
+    margin-right:0;
+    margin-left:0;
+  }
+
+  #grillaBp #carouselExampleControls7 img {
+    width: 100%;
+    margin-left:0;
+  }
+
+  #grillaBp #carouselExampleControls7  {
+    margin-right:0;
+    margin-left:0;
+  }
+
+  #grillaBu #carouselExampleControls7 img {
+    width: 100%;
+    margin-left:0;
+  }
+
+  #grillaBu #carouselExampleControls7  {
+    margin-right:0;
+    margin-left:0;
+  }
+
+  #grillaBp #carouselExampleControls8 img {
+    width: 100%;
+    margin-left:0;
+  }
+
+  #grillaBp #carouselExampleControls8  {
+    margin-right:0;
+    margin-left:0;
+  }
+
+  #grillaBp #carouselExampleControls9 img {
+    width: 100%;
+    margin-left:0;
+  }
+
+  #grillaBp #carouselExampleControls9  {
     margin-right:0;
     margin-left:0;
   }
@@ -1260,6 +1419,34 @@ main {
     font-size:20px;   
     text-align:center;
     margin-bottom:10%;
+  }
+
+  #grillaBp #grillaEp1 h3{
+    
+    font-size:18px;
+    text-align:center;
+    margin:0;
+    margin-top:4%;
+    margin-bottom: 2%;
+    margin-left:2%;
+    margin-right:2%;
+  }
+
+  #grillaBu #introEp h3{
+    font-size:20px;   
+    text-align:center;
+    margin-bottom:10%;
+  }
+
+  #grillaBu #grillaEp1 h3{
+    
+    font-size:18px;
+    text-align:center;
+    margin:0;
+    margin-top:4%;
+    margin-bottom: 2%;
+    margin-left:2%;
+    margin-right:2%;
   }
 
  
