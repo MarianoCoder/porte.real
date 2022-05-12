@@ -869,11 +869,11 @@ main {
   }
 
   #grillaBp {
-    grid-template-rows: 4% 90% 9%;
+    grid-template-rows: 4% 90% 10%;
   }
 
   #grillaBu {
-    grid-template-rows: 5% 87% 11%;
+    grid-template-rows: 5% 87% 12%;
   }
 
   #grillaEx {
