@@ -877,11 +877,11 @@ main {
   }
 
   #grillaEx {
-    grid-template-rows: 6% 85% 13%;
+    grid-template-rows: 6% 85% 14%;
   }
 
   #grillaC {
-    grid-template-rows: 12% 75% 28%;
+    grid-template-rows: 12% 75% 26%;
   }
 
   #grillaEp #introEp {
@@ -1418,6 +1418,10 @@ main {
     margin-left: 2%;
   }
 
+  #grillaC #indexFooter {
+    margin-left: 2%;
+  }
+
   #grillaBp #intro1 #subtitle1 {
     font-size: 26px;
   }
@@ -1487,6 +1491,13 @@ main {
     width: 100%;
     list-style: none;
     margin-right: 0;
+    display: block;
+  }
+
+  #grillaC #landPage {
+    
+    width: 100%
+
   }
 
   #grillaC #contact li {
@@ -1503,7 +1514,7 @@ main {
   #grillaC #maps #subtitle2 {
     padding-bottom: 0;
     text-align: center;
-    margin:0;
+    margin: 0;
     margin-bottom: 4%;
   }
 
@@ -1522,21 +1533,19 @@ main {
 
   }
 
-  #grillaC #maps {
-    
+  #grillaC #landPage #maps {
+    display: block;
     margin-top: 7%;
     width: 100%;
     text-align: center;
 
+
   }
 
-  #grillaC #location {
+  #grillaC #landPage #maps #location{
 
-    margin-top: 3%;
-    margin-left:2.1%;
-    margin-right:2.1%;
-    width: 375px;
-  
+    width:95%;
+    
   }
 
 
