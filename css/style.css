@@ -32,7 +32,7 @@ body {
   height: 100%;
   width: 100%;
   grid-template-columns: 100%;
-  grid-template-rows: 5% 0.5% 87% 8%;
+  grid-template-rows: 5% 0.5% 88% 8%;
   grid-template-areas: "header"
     "nav"
     "main"
@@ -44,7 +44,7 @@ body {
   height: 100%;
   width: 100%;
   grid-template-columns: 100%;
-  grid-template-rows: 4% 0.5% 90% 6%;
+  grid-template-rows: 4% 0.5% 91% 6%;
   grid-template-areas: "header"
     "nav"
     "main"
@@ -852,7 +852,7 @@ main {
   cursor: pointer;
 }
 
-#grillaEp #upBtn{
+#grillaEp #upLink{
   position: center;
   justify-content: center;
   text-align: center;
@@ -862,7 +862,73 @@ main {
   
 }
 
-#grillaEp button{
+#grillaEp #upBtn{
+  position: center;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  margin-left:46%;
+}
+
+
+#grillaBp #upLink{
+  position: center;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  
+}
+
+#grillaBp #upBtn{
+  position: center;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  margin-left:46%;
+}
+
+
+#grillaBu #upLink{
+  position: center;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  
+}
+
+#grillaBu #upBtn{
+  position: center;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  margin-left:46%;
+}
+
+
+#grillaEx #upLink{
+  position: center;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  
+}
+
+#grillaEx #upBtn{
   position: center;
   justify-content: center;
   text-align: center;
@@ -894,11 +960,11 @@ main {
   }
 
   #grillaBu {
-    grid-template-rows: 5% 87% 12%;
+    grid-template-rows: 5% 86% 11%;
   }
 
   #grillaEx {
-    grid-template-rows: 6% 85% 14%;
+    grid-template-rows: 6% 84% 14%;
   }
 
   #grillaC {
@@ -1569,8 +1635,23 @@ main {
     
   }
 
-  #grillaEp button{
+  #grillaEp #upBtn{
     
+    margin-left:37%;
+  }
+
+  #grillaBp #upBtn{
+    
+    margin-left:37%;
+  }
+
+  #grillaBu #upBtn{
+    margin-top:5%;
+    margin-left:37%;
+  }
+
+  #grillaEx #upBtn{
+    margin-top:5%;
     margin-left:37%;
   }
   
