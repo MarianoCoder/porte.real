@@ -852,6 +852,27 @@ main {
   cursor: pointer;
 }
 
+#grillaEp #upBtn{
+  position: center;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  
+}
+
+#grillaEp button{
+  position: center;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  margin-left:46%;
+}
+
 
 
 @media only screen and (max-width: 768px) {
@@ -1547,6 +1568,12 @@ main {
     width:95%;
     
   }
+
+  #grillaEp button{
+    
+    margin-left:37%;
+  }
+  
 }
 
 @media (min-width: 518px) and (max-width: 808px) {
