@@ -20,7 +20,7 @@ body {
   height: 100%;
   width: 100%;
   grid-template-columns: 100%;
-  grid-template-rows: 5% 0.5% 90% 7%;
+  grid-template-rows: 5% 0.5% 91% 7%;
   grid-template-areas: "header"
     "nav"
     "main"
@@ -81,7 +81,7 @@ body {
   text-align: center;
   margin-bottom: 2%;
   margin-top: 2%;
-  margin-right: 4.5%;
+  margin-right: 2%;
 }
 
 
@@ -660,6 +660,19 @@ main {
   margin-bottom: 3%;
 }
 
+#grillaEp #carouselExampleControls7 {
+  margin-top: 0;
+  margin-right: 15px;
+  margin-left: 15px;
+  display: flex;
+}
+
+#grillaEp #carouselExampleControls7 img {
+  width: 62%;
+  margin-left: 18%;
+  margin-bottom: 3%;
+}
+
 #grillaEx #carouselExampleControls6 {
   margin-top: 0;
   margin-right: 15px;
@@ -692,7 +705,6 @@ main {
   margin-left: 15px;
   display: flex;
 }
-
 
 #grillaEp #carouselExampleControls7 img {
   width: 62%;
@@ -1425,6 +1437,16 @@ main {
     margin-left: 0;
   }
 
+  #grillaEp #carouselExampleControls7 img {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #grillaEp #carouselExampleControls7 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
   #grillaBp #carouselExampleControls6 img {
     width: 100%;
     margin-left: 0;
@@ -1636,12 +1658,13 @@ main {
   }
 
   #grillaEp #upBtn{
-    
+    margin-top:5%;
     margin-left:37%;
+    margin-bottom: 20%;
   }
 
   #grillaBp #upBtn{
-    
+    margin-top:5%;
     margin-left:37%;
   }
 
