@@ -20,7 +20,7 @@ body {
   height: 100%;
   width: 100%;
   grid-template-columns: 100%;
-  grid-template-rows: 5% 0.5% 91% 7%;
+  grid-template-rows: 4.5% 0.5% 90% 7.4%;
   grid-template-areas: "header"
     "nav"
     "main"
@@ -1653,7 +1653,9 @@ main {
 
   #grillaC #landPage #maps #location{
 
-    width:95%;
+    width:100%;
+    margin-left: 0;
+    margin-right: 0;
     
   }
 
