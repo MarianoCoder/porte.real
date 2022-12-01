@@ -56,7 +56,7 @@ body {
   height: 100%;
   width: 100%;
   grid-template-columns: 100%;
-  grid-template-rows: 4.5% 0.5% 90.5% 7.4%;
+  grid-template-rows: 4.5% 0.5% 90.5% 7.5%;
   grid-template-areas: "header"
     "nav"
     "main"
