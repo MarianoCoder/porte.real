@@ -32,7 +32,7 @@ body {
   height: 100%;
   width: 100%;
   grid-template-columns: 100%;
-  grid-template-rows: 5% 0.5% 88% 8%;
+  grid-template-rows: 5% 0.5% 89% 8%;
   grid-template-areas: "header"
     "nav"
     "main"
@@ -44,7 +44,7 @@ body {
   height: 100%;
   width: 100%;
   grid-template-columns: 100%;
-  grid-template-rows: 4% 0.5% 91% 6%;
+  grid-template-rows: 4% 0.5% 92% 6%;
   grid-template-areas: "header"
     "nav"
     "main"
