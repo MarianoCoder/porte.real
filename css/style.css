@@ -1057,6 +1057,11 @@ main {
   margin-left:46%;
 }
 
+#linkW{
+  position: fixed;
+  z-index: 100;
+}
+
 
 
 @media only screen and (max-width: 768px) {
@@ -1066,7 +1071,7 @@ main {
   }
 
   #grillaIndex {
-    grid-template-rows: 5% 84% 12%;
+    grid-template-rows: 5% 87% 10%;
   }
 
   #grillaEp {
@@ -1889,32 +1894,4 @@ main {
     margin-left:37%;
   }
   
-}
-
-@media (min-width: 300px) and (max-width: 808px) {
-
-  main {
-    margin: 0;
-  }
-
-  #grillaIndex #paymentA{
-    display: flex;
-    width: 70%;
-    height: 70%;
-  }
-
-  #grillaIndex #deliveryA{
-    display: flex;
-    width: 60%;
-    height: 60%;
-  }
-
-  #grillaIndex #indexFooter {
-    margin-left: 30%;
-  }
-
-
-
-
-
 }
